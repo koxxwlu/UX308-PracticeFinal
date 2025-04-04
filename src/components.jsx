@@ -1,4 +1,4 @@
-import {hello, fahToCelsius} from './functions.js';
+import {hello, fahToCelsius, oneNameToString, twoSqftToAcre, threeMowSpd, fourAQI, fiveIntToString, sixSlopeOfLine} from './functions.js';
 
 function Question1(){
     return <section>

@@ -45,10 +45,24 @@ function fourAQI(index){
 
 function fiveIntToString(number){
     var string = "Nada";
+    var divisibleByThree = number%3==0;
+    var divisibleBySeven = number%7==0;
 
-    if ()
+    if (divisibleByThree && divisibleBySeven) {
+        string = "Yee Ha";
+    } else if (divisibleByThree) {
+        string = "Yee";
+    } else if (divisibleBySeven) {
+        string = "Ha";
+    }
 
     return string;
 }
 
-export {hello, fahToCelsius, oneNameToString, twoSqftToAcre, threeMowSpd, fourAQI, fiveIntToString}
+function sixSlopeOfLine(rise, run){
+    var slope = ;
+
+    return slope;
+}
+
+export {hello, fahToCelsius, oneNameToString, twoSqftToAcre, threeMowSpd, fourAQI, fiveIntToString, sixSlopeOfLine}
