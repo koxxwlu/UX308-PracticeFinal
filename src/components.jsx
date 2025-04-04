@@ -54,7 +54,7 @@ function QuestionThree(){
 
 function QuestionFour(){
     return <section>
-4. Compute the air quality given an air quality index
+4. Compute the air quality given an air quality index.
     <h2>Results</h2>
     <p>fourAQI(1) == "{fourAQI(1)}"</p>
     <p>fourAQI(67) == "{fourAQI(67)}"</p>
@@ -68,13 +68,22 @@ function QuestionFour(){
 
 function QuestionFive(){
     return <section>
-        
+5. yee_ha takes an integer parameter and returns one of the following strings.
+    <h2>Results</h2>
+    <p>fiveIntToString(6) == "{fiveIntToString(6)}"</p>
+    <p>fiveIntToString(14) == "{fiveIntToString(14)}"</p>
+    <p>fiveIntToString(21) == "{fiveIntToString(21)}"</p>
+    <p>fiveIntToString(13) == "{fiveIntToString(13)}"</p>
     </section>
 }
 
 function QuestionSix(){
     return <section>
-        
+6. Calculate the slope of a line.
+    <h2>Results</h2>
+    <p>sixSlopeOfLine(1, 1) == "{sixSlopeOfLine(1, 1)}"</p>
+    <p>sixSlopeOfLine(17, 2) == "{sixSlopeOfLine(17, 2)}"</p>
+    <p>sixSlopeOfLine(8, 9) == "{sixSlopeOfLine(8, 9)}"</p>
     </section>
 }
 
