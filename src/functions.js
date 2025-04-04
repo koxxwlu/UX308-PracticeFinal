@@ -23,8 +23,9 @@ function threeMowSpd(width, length, mpm){
 
 function fourAQI(index){
     var desc = "";
-
-    if (index <=50 && index >= 0) {
+    if (index < 0) {
+        desc = "INVALID";
+    } else if (index <=50) {
         desc = "Good";
     } else if (index <= 100) {
         desc = "Moderate";
@@ -36,8 +37,6 @@ function fourAQI(index){
         desc = "Very Unhealthy";
     } else if (index > 300) {
         desc = "Hazardous";
-    } else {
-        desc = "invalid";
     }
 
     return desc;
@@ -60,7 +59,7 @@ function fiveIntToString(number){
 }
 
 function sixSlopeOfLine(rise, run){
-    var slope = ;
+    var slope = rise/run;
 
     return slope;
 }
