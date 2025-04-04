@@ -83,7 +83,7 @@ function QuestionSix(){
     <h2>Results</h2>
     <p>sixSlopeOfLine(1, 1) == "{sixSlopeOfLine(1, 1)}"</p>
     <p>sixSlopeOfLine(17, 2) == "{sixSlopeOfLine(17, 2)}"</p>
-    <p>sixSlopeOfLine(8, 9) == "{sixSlopeOfLine(8, 9)}"</p>
+    <p>sixSlopeOfLine(8, 9) == "{sixSlopeOfLine(8, 9).toFixed(2)}"</p>
     </section>
 }
 
